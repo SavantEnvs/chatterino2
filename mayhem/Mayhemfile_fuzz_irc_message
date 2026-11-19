@@ -1,0 +1,9 @@
+project: savantenvs/chatterino2
+target: fuzz-irc-message
+cmds:
+  - cmd: /mayhem/fuzz_irc_message
+    libfuzzer: true
+    timeout: 5
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-irc-message/testsuite

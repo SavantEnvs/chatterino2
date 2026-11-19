@@ -1,0 +1,9 @@
+project: savantenvs/chatterino2
+target: fuzz-seventv-eventapi
+cmds:
+  - cmd: /mayhem/fuzz_seventv_eventapi
+    libfuzzer: true
+    timeout: 5
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-seventv-eventapi/testsuite

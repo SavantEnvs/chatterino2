@@ -1,0 +1,9 @@
+project: savantenvs/chatterino2
+target: fuzz-eventsub-message
+cmds:
+  - cmd: /mayhem/fuzz_eventsub_message
+    libfuzzer: true
+    timeout: 5
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-eventsub-message/testsuite

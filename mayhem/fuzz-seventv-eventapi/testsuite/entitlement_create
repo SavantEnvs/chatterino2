@@ -1,0 +1,1 @@
+{"op":0,"d":{"type":"entitlement.create","body":{"id":"x","object":{"kind":"BADGE","ref_id":"62f97c05e46eb00e438a6941","user":{"connections":[{"platform":"TWITCH","id":"11148817","username":"pajlada"}]}}}}}

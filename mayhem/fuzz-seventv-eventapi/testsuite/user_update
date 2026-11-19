@@ -1,0 +1,1 @@
+{"op":0,"d":{"type":"user.update","body":{"id":"60b39e943e203cc169dfc106","actor":{"display_name":"nerixyz"},"updated":[{"key":"connections","index":0,"value":[{"key":"emote_set","old_value":{"id":"old"},"value":{"id":"new"}}]}]}}}
